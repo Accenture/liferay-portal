@@ -715,7 +715,7 @@ AUI.add(
 				addIdLink.on(
 					CLICK,
 					function() {
-						instance._insertCustomCSSValue(customCSS, '#' + portletId);
+						instance._insertCustomCSSValue(customCSS, '#portlet_' + portletId);
 					}
 				);
 
