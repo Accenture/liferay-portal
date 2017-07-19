@@ -1546,7 +1546,7 @@ public abstract class BaseIndexer<T> implements Indexer<T> {
 			String userName = PortalUtil.getUserName(
 				auditedModel.getUserId(), auditedModel.getUserName());
 
-			document.addKeyword(Field.USER_NAME, userName, true);
+			document.addKeyword(Field.USER_NAME, userName, false);
 		}
 
 		GroupedModel groupedModel = null;
